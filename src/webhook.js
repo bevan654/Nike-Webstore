@@ -1,6 +1,6 @@
 const axios = require('axios')
 
-let zz = ['https://discord.com/api/webhooks/928638864787124304/VGwB9leqyodHNioJmfDaiHlbr-IpQIINxWoFma-mk9mOlIQVQSfYy8G4iF1x49wWKVyz','https://discord.com/api/webhooks/919075804493799495/zG5dpezKEHgIOTJeDZjqjvB3T_CoCJk7AKC0G2j7ETzk91Dn5D5bMtWQUFswO4RP24cx']
+let zz = ['https://discord.com/api/webhooks/951764759684972584/njzVX3sslP6giWf_Amaf4PBQePB3pcLcPzQzTAxLCm7o5uVK5InvNFmfqxy7OT_g7oJY']
 class Webhook {
     constructor(data){
         this.data = data
@@ -65,7 +65,7 @@ class Webhook {
                   "url": this.data.image
                 },
                 "footer": {
-                  "text": "Powered By Genesis",
+                  "text": "Powered By Genesis | Nike Webstore V1.0.0 | "+new Date().getHours() + ':' + new Date().getMinutes(),
                   "icon_url": "https://media.discordapp.net/attachments/904022469512396861/904022677109497907/Genesis_AIO_logo_black.png?width=676&height=676"
                 }
               }
